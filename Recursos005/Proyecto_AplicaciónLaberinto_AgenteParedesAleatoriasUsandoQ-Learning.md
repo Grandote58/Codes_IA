@@ -5,7 +5,7 @@ En este proyecto, vamos a crear una aplicación de laberinto donde un agente nav
 ### **Estructura del Proyecto**
 
 ```
-bashCopiar código/laberinto_qlearning_project
+laberinto_qlearning_project
 │
 ├── main.py              # Archivo principal que ejecuta la aplicación
 ├── laberinto.py         # Función para generar el laberinto con paredes aleatorias
@@ -423,3 +423,19 @@ from interfaz import crear_interfaz
 if __name__ == "__main__":
     crear_interfaz()
 ```
+
+
+
+## Uso
+
+1. Ejecuta el archivo `main.py` para iniciar la aplicación.
+2. Utiliza los botones en la interfaz gráfica para iniciar y detener la simulación.
+3. La ruta del agente será almacenada en un archivo `ruta_agente.txt`.
+
+
+
+```bash
+# escribir en la terminal
+python main.py
+```
+
